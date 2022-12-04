@@ -430,6 +430,10 @@ li:hover {
     .header{
         padding-top: 10%;
     }
+    
+    .intro {
+    height: auto;
+    }
 
     .info-college{
         height: auto;
