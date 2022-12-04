@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style-login-en.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="../Images/logo.png">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Log in</title>
+</head>
+
+<body>
+
+    <div id="bg-img"></div>
+
+    <!-- Navbar -->
+    <div class="menu">
+        <ul class="nav-list">
+            <li>
+                <a href="../index.html" class="nav-link" title="Home">
+                    <i class="ri-home-line">
+
+                    </i>
+                    
+                    <span class="nav-name">
+                        Home
+                    </span>
+                
+                </a>
+            </li>
+
+            <li>
+                <a href="Login-en.html" class="nav-link" title="Log In">
+                    
+                    <i class="ri-user-line">
+
+                    </i>
+                    
+                    <span class="nav-name">
+                        Log In
+                    </span>
+                
+                </a>
+            </li>
+
+            <li>
+                <a href="../Group-academy/group-page.html" class="nav-link" title="Group Academy">
+                    
+                    <i class="ri-group-line">
+
+                    </i>
+                    
+                    <span class="nav-name">Group Academy</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="../About/about-page.html" class="nav-link" title="About">
+                    
+                    <i class="ri-information-line">
+
+                    </i>
+                    
+                    <span class="nav-name">
+                        About
+                    </span>
+                
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <!-- Card log in -->
+
+    <div class="container">
+
+        <div class="header">
+
+            <a href="../index.html">
+
+                <div class="user-icon">
+
+                    <i class="ri-user-3-fill">
+
+                    </i>
+
+                </div>
+
+            </a>
+
+            <h2 class="login-txt">Log in to account</h2>
+        </div>
+
+        <form>
+
+            <input type="email" placeholder="Email" autofocus required  oninvalid="this.setCustomValidity('Please use an @')">
+
+            <input type="password" placeholder="Password">
+
+            <input class="submit" type="submit" value="LOGIN">
+            <input class="reset" type="reset" value="RESET">
+
+        </form>
+
+        <p class="signin">Do not have an account? <a href="#">Create an account</a></p>
+    </div>
+</body>
+
+</html>
