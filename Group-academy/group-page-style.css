@@ -166,14 +166,6 @@ li:hover {
     text-align: justify;
 }
 
-#heart{
-    font-size: 25px;
-}
-
-#heart:active{
-    color: red;
-}
-
 .footer{
     width: 100%;
     height: 100px;
